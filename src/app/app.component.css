@@ -1,0 +1,243 @@
+.top-line {
+  background-color: #e5e5e5;
+  height: 24px;
+  padding: 2px 0;
+}
+
+.phone-icon,
+.email-icon {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.contact-info {
+  float: right;
+  margin-right: 20px;
+}
+
+.phone,
+.email {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.phone img,
+.email img {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.phone span,
+.email span {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 1px;
+  overflow: auto;
+}
+
+.navbar-logo {
+  float: left;
+  padding: 70px;
+  line-height: 20px;
+}
+
+.image-container {
+  position: relative;
+  margin-top: 110px;
+}
+
+li.nav-item {
+  display: inline-block;
+  margin-right: 110px;
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 60px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  min-height: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdown-content button {
+  display: block;
+  margin-bottom: 1px;
+}
+
+li.nav-item:hover .dropdown-content {
+  display: list-item;
+}
+
+.content {
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  text-align: center;
+  padding: 2px;
+}
+
+.section {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.button-container {
+  margin-top: 5px;
+}
+
+.centered {
+  text-align: center;
+
+}
+
+.section-title {
+  font-family: 'Papyrus';
+  font-size: 40px;
+  margin-bottom: 13px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section {
+  margin: 0 10px;
+}
+
+.block {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.logo {
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.content {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-family: 'Arial', sans-serif;
+  padding: 8px 16px;
+}
+
+button {
+  background-color: #dae2da;
+  color: rgb(0, 0, 0);
+  border: rgb(157, 255, 122);
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #dbc11c;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text {
+  position: absolute;
+  top: 80.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-family: "Arial Black", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #f5f5f5d3;
+  color: #ffffff;
+  padding: 0px 0;
+  border-radius: 200px;
+  display: flex;
+  justify-content: sace-between;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo-container {
+  float: right;
+  padding-right: 50px;
+}
+
+.fa {
+  padding: 2px;
+  font-size: 19px;
+  width: 30px;
+  text-decoration: none;
+  text-align: right;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #b1343473;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}

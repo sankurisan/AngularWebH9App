@@ -1,0 +1,172 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="scrollable-container">
+  <div class="top-line">
+    <!-- <span style="font-weight: bold; font-size: 27px; font-family: 'Franklin Gothic Heavy';margin-left: 13px;">H9 Consulting LLC</span> -->
+    <div class="contact-info">
+      <div class="phone">
+        <span><img src="./assets/phone.png" alt="Phone Icon" class="phone-icon"></span>
+        <span>Call Us Today! +1 9522881066</span>
+      </div>
+      <div class="email">
+        <span><img src="./assets/email.png" alt="Email Icon" class="email-icon"></span>
+        <span>hr@h9consultinginc.com</span>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navbar">
+    <li class="navbar-logo">
+      <img src="./assets/logo.png" alt="Logo" width="90" height="90">
+    </li>
+    <li class="nav-item">
+      <button (click)="navigateToHome()" class="nav-link  menu-button">Home</button>
+    </li>
+
+    <li class="nav-item">
+      <button (click)="navigateToAboutUs()" class="nav-link  menu-button">About Us</button>
+
+    </li>
+    <li class="nav-item">
+      <button class="nav-link  menu-button">Services</button>
+      <div class="dropdown-content relative">
+        <button (click)="navigateToWhatWeOffer()">IT Consulting</button>
+        <button (click)="navigateToWhatWeOffer()">Application Development</button>
+        <button (click)="navigateToWhatWeOffer()">Health Care Services</button>
+        <button (click)="navigateToWhatWeOffer()">Mobile Apps Development</button>
+      </div>
+    </li>
+    <li class="nav-item">
+      <button (click)="navigateTocompanydetails()">Contact Us</button>
+    </li>
+  </ul>
+
+  <div class="content">
+    <div class="image-container">
+      <img src="./assets/pic.png" alt="Image Description" width="1210" height="500" class="blur-image"
+        style="margin-top: -200px;">
+      <h1 class="image-text" style="font-family: 'Imprint MT Shadow', sans-serif;">Empowering Businesses To Thrive In
+        The Digital Era</h1>
+    </div>
+    <div class="about-us" style="text-align: left;margin-bottom: 20px;">
+      <app-about> </app-about>
+    </div>
+  </div>
+  <div class="centered">
+    <div class="section-title">What We Offer</div>
+    <div class="container">
+      <div class="section">
+        <div class="block">
+          <div class="logo">
+            <img src="./assets/It Consulting.png" alt="Image 1" width="120" height="120">
+          </div>
+          <div class="name">IT Consulting</div>
+          <div class="content-container" style="color:#584e4e;">
+            <p>Our IT consulting services provide strategic guidance and expertise to help businesses leverage
+              technology effectively
+              We provide strategic guidance and expert advice on leveraging technology to drive business growth and
+              enhance operations. Our team of experienced consultants works closely with clients to understand their
+              unique challenges and objectives, offering tailored recommendations and solutions. From IT strategy and
+              planning to infrastructure design and implementation, we cover a wide range of IT consulting services.
+              Whether you need assistance with cloud computing, cybersecurity, digital transformation, or IT project
+              management, we have the expertise to help you navigate the complex IT landscape and achieve your business
+              goals. Partner with us for reliable IT consulting services that deliver tangible results.</p>
+
+          </div>
+        </div>
+        <div class="section">
+          <div class="block">
+            <div class="logo">
+              <img src="./assets/Application Development.jpg" alt="Image 2" width="120" height="120">
+            </div>
+            <div class="name">Application Development</div>
+            <div class="content-container" style="color:#584e4e;">
+              <p>We specialize in creating customized applications that meet the unique requirements of businesses
+                across various industries. Our team of experienced developers utilizes the
+                latest technologies and frameworks to build robust and scalable applications. Whether you need a web
+                application, mobile app, or enterprise software solution, we can deliver tailored
+                solutions to streamline your business processes and enhance user experiences. With a focus on quality,
+                innovation, and timely delivery, we are committed to helping you achieve your application development
+                goals.</p>
+              <!-- <button>Learn More</button> -->
+            </div>
+          </div>
+          <div class="section">
+            <div class="block">
+              <div class="logo">
+                <img src="./assets/healthcare.png" alt="Image 2" width="120" height="120">
+              </div>
+              <div class="name">Health Care Services</div>
+              <div class="content-container" style="color:#584e4e;">
+                <p>Our healthcare services are designed to support and enhance the delivery of quality healthcare to
+                  patients.
+                  We collaborate with healthcare organizations to develop innovative solutions that improve patient
+                  care, streamline processes, and optimize operations.
+                  From electronic health record (EHR) implementation to telemedicine solutions, we offer a range of
+                  services tailored to the unique needs of the healthcare industry.
+                  Whether you need assistance with healthcare IT consulting, healthcare software development, or
+                  healthcare data analytics, we can provide customized solutions that align with
+                  your goals and priorities. Partner with us to transform your healthcare organization and deliver
+                  exceptional care to your patients.</p>
+                <!-- <button>Learn More</button> -->
+              </div>
+            </div>
+            <div class="section">
+              <div class="block">
+                <div class="logo">
+                  <img src="./assets/mobile app.png" alt="Image 2" width="120" height="120">
+                </div>
+                <div class="name">Mobile App Development</div>
+                <div class="content-container" style="color:#584e4e;">
+                  <p>Our mobile app development services empower businesses to create innovative
+                    and engaging mobile applications that drive customer engagement and boost revenue. We specialize in
+                    developing mobile apps for both iOS and
+                    Android platforms, ensuring a seamless user experience across devices.Our mobile app development
+                    services encompass various industries,
+                    including e-commerce, healthcare, finance, travel, and more.
+                    Our mobile app development services encompass various industries, including e-commerce, healthcare,
+                    finance, travel, and more. By leveraging the power of mobile technology, we help businesses enhance
+                    their brand presence, reach a wider audience, and stay ahead in the competitive market.</p>
+                  <!-- <button>Learn More</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="company-details"></div>
+        <p style="font-family: 'Franklin Gothic Heavy';">Company Details</p>
+        <p> H9 Consulting LLC</p>
+        <p>Suit 239, 8011 34th AVE S, Bloomington, MN-55425, USA </p>
+        <p>Hr@h9consultinginc.com</p>
+        <p>+1 9522881066</p>
+
+
+        <div style="margin-bottom: 50px;"></div>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer-content">
+
+              <div class="footer-links">
+                <ul class="footer-menu">
+                  <button (click)="navigateToHome()" class="nav-link menu-button">Home</button>
+                  <button (click)="navigateToAboutUs()" class="nav-link  menu-button">About Us</button>
+                  <button (click)="navigateToWhatWeOffer()" class="nav-link  menu-button">Services</button>
+                  <button (click)="navigateTocompanydetails()" class="nav-link  menu-button">Contact Us</button>
+                </ul>
+              </div>
+              <div class="footer-social"></div>
+              <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+              <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+
+
+
+            </div>
+            <div class="footer-bottom">
+            </div>
+          </div>
+        </footer>
+        <div class="logo-container">
+          <img src="./assets/Everify.png" alt="Logo" width="90" height="90">
+        </div>
+        <router-outlet></router-outlet>
